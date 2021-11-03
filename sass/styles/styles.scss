@@ -1,0 +1,141 @@
+@import "./variables";
+ 
+  .header { 
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  width: 500px;
+  z-index: 1;
+  padding: $padding;
+  background-color: $colorsoftgreen;
+  height: 120px;
+  -webkit-box-shadow: 0px 10px 7px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 10px 7px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 10px 7px -9px rgba(0, 0, 0, 0.75);
+  }
+
+
+  .brand-logo img {
+    width: 500px;
+    padding-top: $padding;
+    height: 7.5em;
+  }
+  
+  .title {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 1em;
+  }
+  .title.title-right {
+    justify-content: flex-end;
+  }
+  .line {
+    width: 500px;
+    height: 1px;
+    background-color: $colorblack;
+    margin-right: 1em;
+  }
+  .line.line-right {
+    order: 2;
+    margin-right: 0;
+    margin-left: 1em;
+  }
+  
+  /* Hero Section */
+  .hero {
+    padding: $padding;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    background: $colorhellgreen;
+  }
+  .hero-img img {
+    display: block;
+    height: auto;
+    width: 500px;
+  }
+  .hero-text {
+    max-width: 700px;
+    text-align: center;
+    padding: $padding;
+  }
+  
+  /* Featured Section */
+  .featured {
+    padding: $padding;
+  }
+  .featured .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #featured .image img {
+    width: 500px;
+  }
+  
+  .text-featured {
+    max-width: 700px;
+    text-align: center;
+    padding: $padding;
+  }
+  .text-featured p {
+    text-align: center;
+    padding: $padding;
+    line-height: 1.4em;
+  }
+  
+  /* About Section */
+  
+  .text-about {
+    max-width: 700px;
+    text-align: center;
+    padding: $padding;
+  }
+  .text-about p {
+    text-align: center;
+    padding-bottom: 1em;
+    line-height: 1.4em;
+  }
+  .about {
+    background-color: $colorhellgreen;
+    padding: $padding;
+  }
+  .about .wrapper {
+    display: flex;
+  }
+  
+  .video-wrapper {
+    position: relative;
+    padding-bottom: 33.25%;
+    overflow: hidden;
+    align-self: center;
+    flex: 2 0 55%;
+    margin: 1.4em 0;
+  }
+  
+  .video-wrapper iframe {
+    position: absolute;
+    top: 01em;
+    left: 0;
+    width: 700px;
+    height: 100%;
+  }
+  
+  /* Contact Section */
+  .contact {
+    padding: $padding;
+  }
+  .wrapper .contact {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .form-wrapper,
+  .contact-wrapper {
+    padding: $padding;
+  }
+  
+  .copy-wrapper {
+       padding-left: $padding;
+  }

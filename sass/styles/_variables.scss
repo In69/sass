@@ -1,0 +1,14 @@
+//variables
+$colorblack: #090b08;
+$colorwhite: #fff;
+$colorhellgreen: #97d279;
+$colorbrightgreen: #ecffe9;
+$colorsoftgreen: #c0eea9;
+$padding: 20px;
+@mixin standardtext{
+    width: 500px;
+    text-align: center;
+    padding-top: 1em;
+}
+
+
